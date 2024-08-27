@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35209.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringManipulator", "WebApp\StringManipulator.csproj", "{9605D718-5B28-4CF5-A0ED-0473EB23AADE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringManipulator.Test", "StringManipulator.Test\StringManipulator.Test.csproj", "{1D580873-E8EB-4642-8CC9-86B34FA91648}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9605D718-5B28-4CF5-A0ED-0473EB23AADE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9605D718-5B28-4CF5-A0ED-0473EB23AADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9605D718-5B28-4CF5-A0ED-0473EB23AADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9605D718-5B28-4CF5-A0ED-0473EB23AADE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D580873-E8EB-4642-8CC9-86B34FA91648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D580873-E8EB-4642-8CC9-86B34FA91648}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D580873-E8EB-4642-8CC9-86B34FA91648}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D580873-E8EB-4642-8CC9-86B34FA91648}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4906EC42-E464-4267-9FF5-EA08BC9251F5}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,23 @@
+﻿@model StringManipulator.Models.Phrase.PhraseModel;
+
+@{
+    Layout = "../_Layout";
+    string? largestWord = (string?)ViewData["largestWord"];
+}
+
+<div id="wrapper">
+    <h1>Welcome to Strig Word Checker!</h1>
+    <p>Insert a phrase in the input and get the <b>Largest Word</b> in it.</p>
+
+    @using (Html.BeginForm("GetLargestWord", "PhraseChecker", FormMethod.Post))
+    {
+        @Html.TextBoxFor(m => m.Phrase);
+        <button type="submit">Check</button>
+    }
+
+    @if (!string.IsNullOrWhiteSpace(largestWord))
+    {
+        <p>The largest word is: <span id="largestWord">@largestWord</span></p>
+    }
+</div>
+
