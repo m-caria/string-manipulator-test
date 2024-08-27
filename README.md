@@ -25,12 +25,12 @@ Using the keyword ref, the parameter reference is passed to the method.
 **2. Returning the updated product:**
 
 ```csharp
-	static Product ApplyDiscount(Product product)
-		=> new() { Name = "discounted shoes", Price = product.Price / 2 };
+static Product ApplyDiscount(Product product)
+	=> new() { Name = "discounted shoes", Price = product.Price / 2 };
 
-	Product shoes = new() { Name = "my shoes", Price = 100 };
-	shoes = ApplyDiscount(shoes);
-	Console.WriteLine(shoes.ToString());
+Product shoes = new() { Name = "my shoes", Price = 100 };
+shoes = ApplyDiscount(shoes);
+Console.WriteLine(shoes.ToString());
 ```
 
 In this way the ApplyDiscount method will directly return the updated value.
